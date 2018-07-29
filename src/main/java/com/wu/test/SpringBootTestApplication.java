@@ -20,7 +20,7 @@ public class SpringBootTestApplication {
 	}
 	
 	/**哈哈*/
-	/**测试冲突*/
+	/**测试冲突99*/
 	@RequestMapping("/hi")
     public String home(String name) {
         return "hi " + name + " ,i am from port:";
